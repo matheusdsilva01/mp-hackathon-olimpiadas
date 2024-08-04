@@ -1,4 +1,4 @@
-import { GetListEvent } from "@/domain/usecases/getListEvent.usecase"
+import { GetListEvent } from "@/domain/usecases"
 import { apiRequestHelper } from "@/util"
 
 export async function getListEventService(

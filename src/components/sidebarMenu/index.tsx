@@ -18,7 +18,7 @@ export const SidebarMenu = () => {
           />
         </Link>
       </div>
-      <ul className="font-paris2024 m-auto flex flex-col gap-4 text-sm font-medium">
+      <ul className="m-auto flex flex-col gap-4 font-paris2024 text-sm font-medium">
         <li>
           <Link href="/events" className="block w-full">
             Eventos

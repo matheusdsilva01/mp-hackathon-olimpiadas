@@ -6,6 +6,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "codante.s3.amazonaws.com",
       },
+      {
+        protocol: "https",
+        hostname: "img.olympics.com",
+      },
     ],
   },
 }
