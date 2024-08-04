@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply bg-zinc-100 text-zinc-950;
+body, html {
+  @apply bg-zinc-100 text-zinc-950 max-h-screen h-full flex w-full overflow-auto;
 }
 
 @layer base {

@@ -1,3 +1,5 @@
+"use client"
+
 import { MouseEvent, ReactNode, useEffect } from "react"
 import { X } from "lucide-react"
 import { ModalContext } from "@/context/Modal"

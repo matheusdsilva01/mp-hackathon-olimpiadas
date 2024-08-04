@@ -8,6 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        olympicHeadlineRegular: [
+          "var(--font-olympic-headline-regular)",
+          "sans-serif",
+        ],
+        olympicSans: ["var(--font-olympic-sans)", "sans-serif"],
+        paris2024: ["var(--font-paris-2024)", "sans-serif"],
+        sourceSansPro: ["var(--font-source-sans-pro)", "sans-serif"],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
