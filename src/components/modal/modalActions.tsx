@@ -1,6 +1,6 @@
 import { useContext } from "react"
 import { ModalContext } from "@/context/Modal"
-import Button from "../button"
+import { Button } from "../button"
 
 const ModalActions = () => {
   const modalContext = useContext(ModalContext)

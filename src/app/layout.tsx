@@ -1,12 +1,9 @@
 import { ReactNode } from "react"
-import { Inter } from "next/font/google"
 import localFont from "next/font/local"
 import "./globals.css"
 import { SidebarMenu } from "@/components"
 import { Providers } from "@/providers"
 import type { Metadata } from "next"
-
-const inter = Inter({ subsets: ["latin"] })
 
 const OlympicHeadlineRegular = localFont({
   src: "../assets/fonts/OlympicHeadline-Regular.woff2",
@@ -76,7 +73,7 @@ export default async function RootLayout({
       <body className={olympicsFonts}>
         <Providers>
           <SidebarMenu />
-          {children}
+          <div className="flex flex-1 overflow-auto">{children}</div>
         </Providers>
       </body>
     </html>

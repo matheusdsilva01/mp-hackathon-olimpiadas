@@ -1,5 +1,7 @@
 import React from "react"
+import Image from "next/image"
 import Link from "next/link"
+import { olympicLogo } from "@/assets/icons"
 
 export const SidebarMenu = () => {
   return (
@@ -7,9 +9,16 @@ export const SidebarMenu = () => {
       <div className="h-5 px-4 py-2">
         <Link href="/" className="font-olympicHeadlineRegular">
           OlympicStats
+          <Image
+            src={olympicLogo}
+            className="ml-4 inline"
+            alt="OlympicStats"
+            width={40}
+            height={40}
+          />
         </Link>
       </div>
-      <ul className="font-rubik font-paris2024 m-auto flex flex-col gap-4 text-sm font-medium">
+      <ul className="font-paris2024 m-auto flex flex-col gap-4 text-sm font-medium">
         <li>
           <Link href="/events" className="block w-full">
             Eventos

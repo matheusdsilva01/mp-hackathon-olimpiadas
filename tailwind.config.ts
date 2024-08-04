@@ -18,15 +18,27 @@ const config: Config = {
         sourceSansPro: ["var(--font-source-sans-pro)", "sans-serif"],
       },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "card-discipline":
+          "linear-gradient(90deg, rgb(51, 19, 98) 0%, #7d84c2 100%);",
       },
       height: {
         inherit: "inherit",
       },
       minHeight: {
         inherit: "inherit",
+      },
+      keyframes: {
+        slowPulse: {
+          "0%, 100%": {
+            opacity: "1",
+          },
+          "50%": {
+            opacity: "0.8",
+          },
+        },
+      },
+      animation: {
+        pulseSlow: "slowPulse 2s infinite",
       },
     },
   },

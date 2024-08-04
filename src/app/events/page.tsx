@@ -1,6 +1,12 @@
 import React from "react"
-
-const page = () => {
+interface PageProps {
+  params: {}
+  searchParams: {
+    discipline?: string
+  }
+}
+const page = (props: PageProps) => {
+  console.log(props)
   return <div>events</div>
 }
 
