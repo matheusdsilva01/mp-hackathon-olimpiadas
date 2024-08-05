@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        gold: "#ffc700",
+        silver: "#c6c6c6",
+        bronze: "#c85d21",
+      },
       fontFamily: {
         olympicHeadlineRegular: [
           "var(--font-olympic-headline-regular)",

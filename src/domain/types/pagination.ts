@@ -7,7 +7,7 @@ export interface Pagination<T> {
     next?: string
   }
   meta: {
-    currentPage: number
+    current_page: number
     from: number
     last_page: number
     links: [
