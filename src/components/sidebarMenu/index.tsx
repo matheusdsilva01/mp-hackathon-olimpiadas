@@ -1,4 +1,5 @@
 import React from "react"
+import { Calendar, Dumbbell, MapPinned, Medal } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import { olympicLogo } from "@/assets/icons"
@@ -20,23 +21,27 @@ export const SidebarMenu = () => {
       </div>
       <ul className="m-auto flex flex-col gap-4 font-paris2024 text-sm font-medium">
         <li>
-          <Link href="/events" className="block w-full">
-            Eventos
+          <Link href="/events" className="flex w-full">
+            <Calendar size={18} className="inline" />
+            <p className="ml-2">Eventos</p>
           </Link>
         </li>
         <li>
-          <Link href="/medals" className="block w-full">
-            Quadro de medalhas
+          <Link href="/medals" className="flex w-full">
+            <Medal size={18} className="inline" />
+            <p className="ml-2">Quadro de medalhas</p>
           </Link>
         </li>
         <li>
-          <Link href="/disciplines" className="block w-full">
-            Modalidades
+          <Link href="/disciplines" className="flex w-full">
+            <Dumbbell size={18} className="inline" />
+            <p className="ml-2">Modalidades</p>
           </Link>
         </li>
         <li>
-          <Link href="/locals-events" className="block w-full">
-            Locais dos eventos
+          <Link href="/locals-events" className="flex w-full">
+            <MapPinned size={18} className="inline" />
+            <p className="ml-2">Locais dos eventos</p>
           </Link>
         </li>
       </ul>
