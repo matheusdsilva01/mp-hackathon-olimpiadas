@@ -7,11 +7,11 @@ export const DisciplinesList = async () => {
   const response = await getListDisciplines({})
 
   return (
-    <ul className="font-olympicSans mt-10 flex flex-col flex-wrap gap-x-8 gap-y-4">
+    <ul className="mt-10 flex flex-col flex-wrap gap-y-4 font-olympicSans">
       {response?.data?.map(discipline => (
         <li key={discipline.id}>
           <Link
-            className="bg-card-discipline flex max-w-sm items-center rounded-md border-2 border-zinc-400 p-2"
+            className="flex max-w-sm items-center rounded-md border-2 border-zinc-400 bg-card-discipline p-2"
             href={`/events?discipline=${discipline.id}`}
           >
             <Image

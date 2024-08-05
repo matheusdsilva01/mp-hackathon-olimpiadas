@@ -19,7 +19,6 @@ export async function apiRequestHelper<T>({
   }
 
   try {
-    console.log(apiHost)
     const response: AxiosResponse<T> = await axios.request<T>({
       url,
       baseURL: apiHost,
