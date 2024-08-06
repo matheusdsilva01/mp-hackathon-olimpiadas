@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body, html {
-  @apply bg-zinc-100 text-zinc-950 max-h-screen h-full flex w-full overflow-auto;
+  @apply bg-zinc-100 text-zinc-950 max-h-screen h-full flex w-full overflow-auto flex-col md:flex-row;
 }
 
 @layer base {
