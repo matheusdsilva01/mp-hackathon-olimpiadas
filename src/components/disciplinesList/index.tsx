@@ -11,7 +11,8 @@ export const DisciplinesList = async () => {
       {response?.data?.map(discipline => (
         <li key={discipline.id}>
           <Link
-            className="flex max-w-sm items-center rounded-md border-2 border-zinc-400 bg-card-discipline p-2"
+            className="flex max-w-sm items-center rounded-md border-2 border-zinc-400 bg-card-discipline p-2 transition-all hover:border-zinc-500 hover:shadow-md"
+            title="Click to see events"
             href={`/events?discipline=${discipline.id}`}
           >
             <Image

@@ -4,7 +4,7 @@ import { LocalsEventsListFallback } from "@/components/localsEventsList/fallback
 
 const page = () => {
   return (
-    <div className="p-8">
+    <div>
       <h1 className="font-paris2024 text-xl font-bold not-italic">
         Venues Paris Olympics 2024
       </h1>

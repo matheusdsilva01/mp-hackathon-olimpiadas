@@ -16,7 +16,7 @@ import { olympicLogo } from "@/assets/icons"
 export const SidebarMenu = () => {
   return (
     <>
-      <div className="hidden h-screen w-full max-w-xs flex-col bg-zinc-50 md:flex">
+      <div className="hidden h-screen w-full max-w-[280px] flex-col bg-zinc-50 md:flex">
         <div className="flex h-5 px-4  py-2">
           <Link href="/" className="font-olympicHeadlineRegular">
             OlympicStats
@@ -79,7 +79,7 @@ const ResponsiveSidebarMenu = () => {
   return (
     <>
       {isOpen && (
-        <div className="absolute z-50 flex h-screen w-full max-w-xs flex-col bg-zinc-50 md:hidden">
+        <div className="absolute z-50 flex h-screen w-full max-w-[280px] flex-col bg-zinc-50 md:hidden">
           <div className="flex h-5 px-4 py-2">
             <Link href="/" className="font-olympicHeadlineRegular">
               OlympicStats

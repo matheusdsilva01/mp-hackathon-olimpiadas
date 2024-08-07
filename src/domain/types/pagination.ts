@@ -1,4 +1,4 @@
-export interface Pagination<T> {
+export interface Pagination<T = {}> {
   data: T
   links: {
     first: string

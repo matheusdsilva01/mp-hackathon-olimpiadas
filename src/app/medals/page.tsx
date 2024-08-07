@@ -13,7 +13,7 @@ const page = () => {
   const list = data?.pages.map(page => page.data).flat()
 
   return (
-    <div className="w-full px-8 py-8">
+    <div className="w-full">
       <h1 className="text-center font-paris2024 text-xl font-bold">
         Paris 2024 Medals
       </h1>

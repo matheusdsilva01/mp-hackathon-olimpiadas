@@ -4,7 +4,7 @@ import { DisciplinesListFallback } from "@/components/disciplinesList/fallback"
 
 const page = () => {
   return (
-    <div className="px-8 py-8">
+    <div>
       <h1 className="font-paris2024 text-xl font-bold not-italic">
         Disciplines Paris Olympics 2024
       </h1>
