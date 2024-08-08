@@ -1,15 +1,15 @@
 #  Olympicstats
 ### Projeto desenvolvido para a resolução do Projeto Hackathon das Olimpíadas de Paris 2024 da Codante
 
-Para visualizar o site clone o projeto e siga os passos abaixo para executar o projeto.
-
-Visualização do projeto online indisponível no momento.
+Visualize o projeto em: [Olympicstats](https://mp-hackathon-olimpiadas-mu.vercel.app/)
 
 ## Projeto desenvolvido utilizando as seguintes tecnologias
   - React
   - Typescript
   - Next
   - Tailwind css
+
+Para executar o projeto localmente siga os passos abaixo.
 
 # Este projeto foi inicializado com [Next](https://nextjs.org/).
 
