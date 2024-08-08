@@ -6,7 +6,7 @@ import { Providers } from "@/providers"
 import type { Metadata } from "next"
 
 const OlympicHeadlineRegular = localFont({
-  src: "./assets/fonts/OlympicHeadline-Regular.woff2",
+  src: "./fonts/OlympicHeadline-Regular.woff2",
   display: "swap",
   variable: "--font-olympic-headline-regular",
 })
@@ -14,10 +14,10 @@ const OlympicHeadlineRegular = localFont({
 const OlympicSans = localFont({
   src: [
     {
-      path: "./assets/fonts/OlympicSans-Bold.woff2",
+      path: "./fonts/OlympicSans-Bold.woff2",
     },
     {
-      path: "./assets/fonts/OlympicSans-Regular.woff2",
+      path: "./fonts/OlympicSans-Regular.woff2",
     },
   ],
   display: "swap",
@@ -27,13 +27,13 @@ const OlympicSans = localFont({
 const Paris2024 = localFont({
   src: [
     {
-      path: "./assets/fonts/Paris2024-Bold.woff2",
+      path: "./fonts/Paris2024-Bold.woff2",
     },
     {
-      path: "./assets/fonts/Paris2024-black.woff2",
+      path: "./fonts/Paris2024-black.woff2",
     },
     {
-      path: "./assets/fonts/Paris2024-BoldItalic.woff2",
+      path: "./fonts/Paris2024-BoldItalic.woff2",
     },
   ],
   display: "swap",
@@ -43,13 +43,13 @@ const Paris2024 = localFont({
 const SourceSansPro = localFont({
   src: [
     {
-      path: "./assets/fonts/SourceSansPro-Black.woff2",
+      path: "./fonts/SourceSansPro-Black.woff2",
     },
     {
-      path: "./assets/fonts/SourceSansPro-Bold.woff2",
+      path: "./fonts/SourceSansPro-Bold.woff2",
     },
     {
-      path: "./assets/fonts/SourceSansPro-regular.woff2",
+      path: "./fonts/SourceSansPro-regular.woff2",
     },
   ],
   display: "swap",
